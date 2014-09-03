@@ -17,6 +17,7 @@
 # limitations under the License.
 #
 
+include_recipe "database::mysql"
 include_recipe "mysql::client"
 include_recipe "mysql::server"
 
